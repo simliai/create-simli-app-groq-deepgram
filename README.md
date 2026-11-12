@@ -1,3 +1,8 @@
+> [!WARNING]
+> **This repository is archived.** It was built for an earlier version of the Simli API and SDK, and is no longer maintained or guaranteed to work. Some of its code puts API keys in the browser, so don't deploy it.
+>
+> Start from a current starter instead: [all Simli starters](https://docs.simli.com/api-reference/samples/all-samples) (LiveKit Agents, Pipecat, ElevenLabs, OpenAI Realtime, Vapi). Or give your coding agent Simli in one command: `npx skills add simliai/skills`.
+
 # Create Simli App (Groq + Deepgram)
 This starter is an example of how to create a composable Simli interaction that runs in a Next.js app.
 The project consists of a Next.js app that uses the Simli SDK (`simli-client`) and a server `server.js` that handles the interaction with other services such as speech-to-text (STT), large language models (LLMs) and text-to-speech (TTS). 
